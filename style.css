@@ -1,0 +1,55 @@
+/* איפוס סגנונות ברירת מחדל */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* גוף האתר */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* כותרת האתר */
+  header {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* סרגל הניווט */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  a:hover {
+    color: #777;
+  }
+  
+  /* תוכן האתר */
+  main {
+    padding: 20px;
+  }
+  
+  /* תחתיות האתר */
+  footer {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    text-align: center;
+  }
